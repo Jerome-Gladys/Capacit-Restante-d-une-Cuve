@@ -28,7 +28,7 @@ __Total : 17,36€__
 
 Pré-requis : 
 
-  -- Logiciel Arduino
+  - Logiciel Arduino
   - Intégration MQTT dans Gladys
 
 __1ère Etape : Branchement du capteur JSN-SR04T au Wemos D1 mini__

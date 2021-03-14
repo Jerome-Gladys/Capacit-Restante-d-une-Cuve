@@ -100,7 +100,7 @@ Nous aurons besoin de :
 
 - PubSubClient
 
-Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties en rouges)
+Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties en *italiques*
 
 ```
 #include <ESP8266WiFi.h>
@@ -110,17 +110,17 @@ Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remp
 
 //MQTT
 
-#define mqtt_server « 192.168.X.X"   // adresse IP de Gladys
-#define mqtt_user "gladys"            // username dans gladys
-#define mqtt_password « ******************»        // mot de passe dans l’intégration Gladys
+#define mqtt_server « 192.168.X.X"   // *adresse IP de Gladys*
+#define mqtt_user "gladys"      // *username dans gladys*
+#define mqtt_password « ******************»        // *mot de passe dans l’intégration Gladys*
 #define gladys_topic "gladys/master/device/mqtt:jardin:capteur-cuve/feature/mqtt:jardin:capteur-cuve:capacite/state"  /
 #define mqtt_cuve "mqtt:jardin:capteur-cuve"     //Topic capteur cuve
 #define JsonbufferSize     100
 
 //WIFI
 
-const char* ssid = « ***********»; // nom de votre réseau wifi
-const char* password = « ***************»; // mot de passe wifi
+const char* ssid = « ***********»; // *nom de votre réseau wifi*
+const char* password = « ***************»; // *mot de passe wifi*
 
 /* Constantes pour les broches */
 

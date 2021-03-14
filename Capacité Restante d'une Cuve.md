@@ -100,7 +100,7 @@ Nous aurons besoin de :
 
 - PubSubClient
 
-Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties en *italiques*
+Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties entre les *....*)
 
 ```
 #include <ESP8266WiFi.h>

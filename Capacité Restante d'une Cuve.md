@@ -70,7 +70,7 @@ Pour cela, vous aurez besoin de télécharger et d’installer l’ide Arduino s
 
 Le WEMOS D1 mini n’est pas reconnu officiellement par l’’ide Arduino. Vous devez donc télécharger le driver CH340/CH341 afin qu’il soit reconnu et que vous puissiez télécharger du code dessus. (Disponible [ici](https://www.wemos.cc/en/latest/ch340_driver.html))
 
-Branchez votre Wemos D1 mini puis installer le driver, ensuite lancez le logiciel arduino puis allez dans préférences et ajoutez la ligne ci-dessous dans l’url de gestionnaires de cartes supplémentaires
+Branchez votre Wemos D1 mini puis installer le driver, ensuite lancez le logiciel arduino puis allez dans  "préférences" et ajoutez la ligne ci-dessous dans l’url de gestionnaires de cartes supplémentaires
 
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -78,11 +78,11 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <img width="924" alt="Capture d’écran 2021-03-08 à 09 31 07" src="https://user-images.githubusercontent.com/80550818/111081013-894e3e80-8501-11eb-84c8-8302f70f8d16.png">
 
-Ensuite,  allez dans outils > type de cartes > le gestionnaire de carte et recherchez esp8266, puis cliquez sur installer.
+Ensuite,  allez dans "outils" -> "type de cartes" -> "le gestionnaire de carte" et recherchez "esp8266"puis cliquez sur "installer"
 
 <img width="802" alt="Capture d’écran 2021-03-08 à 09 39 29" src="https://user-images.githubusercontent.com/80550818/111081024-910de300-8501-11eb-89b1-3fdf93d4606e.png">
 
-Pour finir vous pouvez choisir votre carte dans outils > type de cartes et choisir ESP8266board puis LOLIN(Wemos) D1 R2 & mini
+Pour finir vous pouvez choisir votre carte dans  "outils" -> "type de cartes" et choisir "ESP8266board " puis "LOLIN(Wemos) D1 R2 & mini"
 
 Et voilà votre carte Wemos est prête à recevoir du code :-)
 

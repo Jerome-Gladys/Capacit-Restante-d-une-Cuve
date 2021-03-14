@@ -78,7 +78,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <img width="924" alt="Capture d’écran 2021-03-08 à 09 31 07" src="https://user-images.githubusercontent.com/80550818/111081013-894e3e80-8501-11eb-84c8-8302f70f8d16.png">
 
-Ensuite,  allez dans "outils" -> "type de cartes" -> "le gestionnaire de carte" et recherchez "esp8266"puis cliquez sur "installer"
+Ensuite,  allez dans "outils" -> "type de cartes" -> "le gestionnaire de carte" et recherchez "esp8266" puis cliquez sur "installer"
 
 <img width="802" alt="Capture d’écran 2021-03-08 à 09 39 29" src="https://user-images.githubusercontent.com/80550818/111081024-910de300-8501-11eb-89b1-3fdf93d4606e.png">
 

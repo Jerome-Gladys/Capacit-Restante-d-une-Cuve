@@ -92,13 +92,13 @@ Il faut se rendre dans l’onglet "outils" -> "gérer les bibliothèques"
 
 Nous aurons besoin de : 
 
--- ArduinoJSON
+- ArduinoJSON
 
--- ESP8266Wifi
+- ESP8266Wifi
 
--- ESP8266WifiMulti
+- ESP8266WifiMulti
 
--- PubSubClient
+- PubSubClient
 
 Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties en rouges)
 

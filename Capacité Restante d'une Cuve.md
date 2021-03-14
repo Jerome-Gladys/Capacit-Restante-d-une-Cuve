@@ -100,7 +100,7 @@ Nous aurons besoin de :
 
 - PubSubClient
 
-Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT , WIFI et surtout de modifier la valeur de la profondeur de votre cuve.
+Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT , WIFI et surtout de modifier la valeur de la profondeur de votre cuve dans  *floatcuve = 2000*.
 
 ```
 #include <ESP8266WiFi.h>

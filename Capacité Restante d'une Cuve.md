@@ -100,7 +100,7 @@ Nous aurons besoin de :
 
 - PubSubClient
 
-Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT ainsi que celles de connexions WIFI. (Les parties entre les *....*)
+Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT , WIFI et surtout de modifier la valeur de la profondeur de votre cuve.
 
 ```
 #include <ESP8266WiFi.h>
@@ -200,10 +200,10 @@ void loop() {
    
   /* 3. Calcul la distance à partir du temps mesuré */
   int distance_mm = measure / 2.0 * SOUND_SPEED;
-  float cuve = 2000 - distance_mm; // profondeur de la cuve vide en mm
-  cuve = cuve / 2000;
-  cuve = cuve * 100;
-  
+  float cuve = 2000 - distance_mm; // ATTENTION Valeur à remplacer par la profondeur de votre cuve vide en mm
+  cuve = cuve / 2000; // Valeur à modifier également
+  cuve = cuve * 100
+
   /* Affiche les résultats en mm */
   #ifdef HRC04
   

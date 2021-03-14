@@ -269,6 +269,8 @@ Vous pouvez créer différentes scènes et notamment vous prévenir si la cuve e
 
 <img width="1011" alt="Capture d’écran 2021-03-14 à 20 41 56" src="https://user-images.githubusercontent.com/80550818/111081917-d92f0480-8505-11eb-8dbf-3782e2764832.png">
 
+Vous pouvez installer l'application télégram pour recevoir maintenant vos notifications.
+
 Quelques photos de mon installation
 
 ![20210224_172243](https://user-images.githubusercontent.com/80550818/111082051-8570eb00-8506-11eb-94b0-95c071e0c473.jpg)

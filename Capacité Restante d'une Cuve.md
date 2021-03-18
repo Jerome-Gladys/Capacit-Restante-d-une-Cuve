@@ -249,7 +249,7 @@ void loop() {
 }
 ```
 
-Une fois le code téléversé vous pouvez installer votre matériel dans des boites étanches pour protéger votre capteur et wemos.
+Une fois le code téléversé, vous pouvez brancher les cables avec le schéma du dessus et effectuer un test avec l'ide arduino et le moniteur de série pour voir le résultat. Si cela fonctionne correctement vous pouvez alors installer votre matériel dans des boites étanches pour protéger votre capteur et votre wemos.
 
 Vous pouvez créer différentes scènes et notamment vous prévenir si la cuve est presque vide ou vous envoyer 1fois/jour la capacité restante par exemple.
 

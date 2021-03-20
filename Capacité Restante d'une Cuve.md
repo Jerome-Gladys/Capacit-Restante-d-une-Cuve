@@ -38,7 +38,7 @@ Schéma :
 
 <img width="628" alt="Capture d’écran 2021-03-08 à 10 24 00" src="https://user-images.githubusercontent.com/80550818/111079348-ef36c800-84f9-11eb-9546-b1752406674f.png">
 
-! [schéma de montage](img/image schéma.png)
+! [schéma de montage] (img/image schéma.png)
 
 ```
 GND : GND

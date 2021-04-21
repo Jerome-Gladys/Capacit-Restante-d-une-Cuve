@@ -98,7 +98,7 @@ Nous aurons besoin de :
 
 - PubSubClient
 
-Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT , WIFI et surtout de modifier la valeur de la profondeur de votre cuve dans  *"floatcuve = 2000"*
+Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remplir vos informations sur la partie MQTT , WIFI et surtout de modifier la valeur de la profondeur de votre cuve dans  *"float c = 2000"*
 
 ```
 #include <ESP8266WiFi.h>
@@ -106,8 +106,8 @@ Vous pouvez à présent copier/coller le code ci-dessous en pensant à bien remp
 
 /* WIFI */
 
-#define wifi_ssid "*********"
-#define wifi_password "**************"
+#define wifi_ssid "*********" // votre ssid wifi
+#define wifi_password "**************" // votre mot de passe wifi
 
 /* MQTT */
 
@@ -221,7 +221,7 @@ void loop() {
     /* 3. Calcul la distance à partir du temps mesuré */
 
     int distance_mm = measure / 2.0 * SOUND_SPEED;
-    float c = 2000 - distance_mm;
+    float c = 2000 - distance_mm; // TRES IMORTANT Remplacer 2000 par la hauteur de votre cuve
     c = c / 2000;
     c = c * 100;
 
@@ -235,7 +235,7 @@ void loop() {
       Serial.print("Cuve : ");
       Serial.print(c);
     }
-    client.publish(gladys_topic, String(c).c_str(), true);   //Publie la température sur le topic temperature_topic
+    client.publish(gladys_topic, String(c).c_str(), true);   //Publie le % de la cuve sur le topic dans gladys
   }
   if (now - lastRecu > 100 ) {
     lastRecu = now;
